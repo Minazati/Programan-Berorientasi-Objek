@@ -1,0 +1,33 @@
+
+class mahasiswa():
+    def __init__(self, nama, nim, nilai):
+        self.nama = nama
+        self.__nim = nim
+        self._nilai = nilai
+    
+    def set_nama(self, nama):
+        self.nama = nama
+    
+    def get_nama(self):
+        return self.nama
+    
+    def set_nim(self, nim):
+        self.__nim = nim
+
+    def get_nim(self):
+        return self.__nim
+
+    def set_nilai(self, nilai):
+        self._nilai = nilai
+
+    def get_nilai(self):
+        return self._nilai
+    
+andi = mahasiswa("Andi", "123456", 90)
+andi.set_nama("Audre")
+print(andi.get_nama())
+andi.set_nim(23456)
+print(andi.get_nim())
+andi.set_nilai(60)
+print(andi.get_nilai())
+ 
