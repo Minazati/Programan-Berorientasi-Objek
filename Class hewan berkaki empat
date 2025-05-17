@@ -1,0 +1,75 @@
+class hewan_berkaki_empat():
+    def __init__(self, nama, pemilik, umur):
+        self._nama = nama
+        self._pemilik = pemilik
+        self._umur = umur
+
+class anjing (hewan_berkaki_empat):
+    def set_nama(self, nama):
+        self._nama = nama
+    def get_nama(self):
+        return self._nama
+    
+    def set_pemilik(self, pemilik):
+        self._pemilik = pemilik
+    def get_pemilik(self):
+        return self._pemilik
+    
+    def set_umur(self, umur):
+        self._umur = umur
+    def get_umur(self):
+        return self._umur
+
+class kucing (hewan_berkaki_empat):
+    def set_nama(self, nama):
+        self._nama = nama
+    def get_nama(self):
+        return self._nama
+    
+    def set_pemilik(self, pemilik):
+        self._pemilik = pemilik
+    def get_pemilik(self):
+        return self._pemilik
+    
+    def set_umur(self, umur):
+        self._umur = umur
+    def get_umur(self):
+        return self._umur
+    
+class kuda(hewan_berkaki_empat):
+    def set_nama(self, nama):
+        self._nama = nama
+    def get_nama(self):
+        return self._nama
+    
+    def set_pemilik(self, pemilik):
+        self._pemilik = pemilik
+    def get_pemilik(self):
+        return self._pemilik
+    
+    def set_umur(self, umur):
+        self._umur = umur
+    def get_umur(self):
+        return self._umur
+
+Dalgom = anjing("Dalgom", "Jisoo", 5)
+Dalgom.set_nama("Bella")
+print(Dalgom.get_nama())
+Dalgom.set_pemilik("Lucas")
+print(Dalgom.get_pemilik())
+Dalgom.set_umur(6)
+print(Dalgom.get_umur())
+Luna = kucing("Luna", "Jaemin", 3)
+Luna.set_nama("Lucy")
+print(Luna.get_nama())
+Luna.set_pemilik("Nana")
+print(Luna.get_pemilik())
+Luna.set_umur(2)
+print(Luna.get_umur())
+Aheng = kuda("Aheng", "sijeuni", 2)
+Aheng.set_nama("Hendery")
+print(Aheng.get_nama())
+Aheng.set_pemilik("Wayv")
+print(Aheng.get_pemilik())
+Aheng.set_umur(6)
+print(Aheng.get_umur())
